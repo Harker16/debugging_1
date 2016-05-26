@@ -6,7 +6,6 @@ describe Appointment do
 
   describe '#title' do
     it 'has a title' do
-      p appointment.title
       expect(appointment.title).to eq "Test appointment"
     end
   end
